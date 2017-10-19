@@ -1,0 +1,55 @@
+p{
+	text-align: center;
+	font-size: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+div{
+	width: 190px;
+	height: 300px;
+	float: left;
+	background-color: #BDBDBD;
+	margin: 3px;
+	transition: width 2s;
+	color: #fff;
+}
+div:hover{
+	background-color: #fff;
+	color: teal;
+	width: 200px;
+	height: 300px;
+}
+
+div:hover .icon-paperplane{
+	color: #7E98C5;
+	font-size: 80px;
+}
+
+div:hover .icon-diamond{
+	color: #7E98;
+	font-size: 80px;
+}
+
+div:hover .icon-heart2{
+	color: red;
+	font-size: 80px;
+}
+
+div:hover .icon-cup{
+	color: yellow;
+	font-size: 80px;
+}
+
+div:hover .icon-food{
+	color: blue;
+	font-size: 80px;
+}
+h2, h5, h6{
+	text-align: center;
+}
+h2, h6{
+	font-family: 'Poiret One', cursive;
+}
+h5{
+	font-family: 'Josefin Sans', sans-serif;
+}
